@@ -18,15 +18,15 @@ const Testimonials = () => {
   
   const slideForward = () => {
 
-      if(tx<+50){
-        tx += 25;
+      if(tx >-50){
+        tx -= 25;
     }
       slider.current.style.transform = `translateX(${tx}%)`;
    }
 
    const slideBackward = () => {
-     if(tx>-50){
-        tx -= 25;
+     if(tx < 0){
+        tx += 25;
     }
       slider.current.style.transform = `translateX(${tx}%)`;
    }
@@ -48,7 +48,7 @@ const Testimonials = () => {
                     <span>Edusity, USA</span>
                   </div>
                 </div>
-                <p>Chooding to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                <p>Choosing to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
               </div>
             </li>
             <li>
@@ -60,7 +60,7 @@ const Testimonials = () => {
                     <span>Edusity, USA</span>
                   </div>
                 </div>
-                <p>Chooding to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                <p>Choosing to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
               </div>
             </li>
             <li>
@@ -72,7 +72,7 @@ const Testimonials = () => {
                     <span>Edusity, USA</span>
                   </div>
                 </div>
-                <p>Chooding to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                <p>Choosing to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
               </div>
             </li>
             <li>
@@ -84,7 +84,7 @@ const Testimonials = () => {
                     <span>Edusity, USA</span>
                   </div>
                 </div>
-                <p>Chooding to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
+                <p>Choosing to pursue my degree at Edusity was one of the best decision i've ever made. this supportive community, state of the art facilities, and commitment to academic excellence have truly exceeded my expectations.</p>
               </div>
             </li>
           </ul>

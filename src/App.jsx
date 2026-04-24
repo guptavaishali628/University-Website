@@ -8,6 +8,7 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Campus from './Components/Campus/Campus'
 import Testimonials from './Components/Testimonials/Testimonials'
+import Contact from './Components/Contact/Contact'
 const App = () => {
   return (
     <>
@@ -20,8 +21,10 @@ const App = () => {
         <About/>
         <Title subtitle="GALLERY" title="Campus Photos"/> {/*pass props here to the title component */}
         <Campus/>
-        <Title subtitle="TESTIMONIALS" title="What Students Says"/> {/*pass props here to the title component */}
+        <Title subtitle="TESTIMONIALS" title="What Students Says"/>
         <Testimonials/>
+        <Title subtitle="Contact Us" title="Get In Touch"/>
+        <Contact/>
       </div>
 
     </div>  
