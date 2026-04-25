@@ -32,3 +32,10 @@ nav ul li{
     background-color: #212EA0;
     transition: 0.5s;
 }
+
+/*responsive design for mobile devices*/
+@media (max-width: 1000px){
+    .container{
+        
+    }
+}

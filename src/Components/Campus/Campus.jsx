@@ -8,7 +8,7 @@ import white_arrow from '../../assets/white-arrow.png'
 
 const Campus = () => {
   return (
-    <div className='campus'>
+    <div className='campus' id='campus'>  {/*add id here to link it with the navbar when we click on the campus link in the navbar it will scroll down to this section */}
         <div className='gallery'>
             <img src={gallery1} alt=''></img>
             <img src={gallery2} alt=''></img>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-scroll'
 
 // import './Navbar.css'
 import './Navbar.css'
@@ -22,12 +23,12 @@ const Navbar = () => {
      <nav className={`container ${sticky ? 'dark-nav' : ''}`}>  {/*dark-nav is the class name which will be added when the sticky is true and it will change the background color of the navbar to dark blue and transition will be added to make it smooth when we scroll down and up the page. */}
         <img src={logo} alt="edusity" className='logo'></img>
         <ul>
-            <li>Home</li>
-            <li>Program</li>
-            <li>About Us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
-            <li><button className='btn'>Contact us</button></li>
+            <li><Link to='hero' smooth={true} offset={-260} duration={500}>Home</Link></li>
+            <li><Link to='program' smooth={true} offset={-220} duration={500}>Program</Link></li>
+            <li><Link to='about' smooth={true} offset={-110} duration={500}>About Us</Link></li>
+            <li><Link to='campus' smooth={true} offset={-220} duration={500}>Campus</Link></li>
+            <li><Link to='testimonials' smooth={true} offset={-220} duration={500}>Testimonials</Link></li> 
+            <li><Link to='contact' smooth={true} offset={-220} duration={500}><button className='btn'>Contact us</button></Link></li>
 
         </ul>
      </nav>

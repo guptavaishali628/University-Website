@@ -13,7 +13,7 @@ import program3_icon from '../../assets/program-icon-3.png'
 
 const Programs = () => {
   return (
-    <div className='programs'>
+    <div className='programs' id='program'>  {/*add id here to link it with the navbar when we click on the program link in the navbar it will scroll down to this section */}
         <div className="program">
             <img src={program1} alt='Program1'></img>
             <div className='caption'>

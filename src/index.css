@@ -45,3 +45,10 @@ a{
   color: #fff;
 }
 
+/* responsive design for mobile devices */
+@media (max-width: 1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
