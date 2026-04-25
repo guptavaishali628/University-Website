@@ -51,4 +51,8 @@ a{
     padding-left: 5%;
     padding-right: 5%;
   }
+   .btn{
+        padding: 14px 22px;
+        font-size: 14px;
+    }
 }
